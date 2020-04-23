@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:finfan/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:finfan/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:finfan/prow:hmacToken
+segmentWriteKey: vault:finfan:segmentWriteKey
